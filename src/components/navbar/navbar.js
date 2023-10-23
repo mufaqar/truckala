@@ -1,4 +1,6 @@
 "use client"
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 function Navbar() {
@@ -12,13 +14,15 @@ function Navbar() {
     <nav className="">
       <div className="container mx-auto flex items-center justify-between">
         <div>
-          <img src="logo.svg" alt="Logo" className="w-[160px]" />
+          <Link href="/">
+            <Image src="logo.svg" alt="Logo" width={160} height={50} />
+          </Link>
         </div>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-white hover:text-blue-300">Products</a>
-          <a href="#" className="text-white hover:text-blue-300">Industries</a>
-          <a href="#" className="text-white hover:text-blue-300">Load Market</a>
-          <a href="#" className="text-white hover:text-blue-300">About</a>
+          <Link href="#" className="text-white hover:text-blue-300">Products</Link>
+          <Link href="#" className="text-white hover:text-blue-300">Industries</Link>
+          <Link href="#" className="text-white hover:text-blue-300">Load Market</Link>
+          <Link href="#" className="text-white hover:text-blue-300">About</Link>
           <button className="bg-white text-blue-800 px-6 py-1">Sign up</button>
         </div>
         <div className="md:hidden flex items-center">
@@ -31,10 +35,10 @@ function Navbar() {
       </div>
       {isOpen && (
         <div className="md:hidden  w-full">
-          <a href="#" className="block text-white py-2 hover:bg-blue-600">Products</a>
-          <a href="#" className="block text-white py-2 hover:bg-blue-600">Industries</a>
-          <a href="#" className="block text-white py-2 hover:bg-blue-600">Load Market</a>
-          <a href="#" className="block text-white py-2 hover:bg-blue-600">About</a>
+          <Link href="#" className="block text-white py-2 hover:bg-blue-600">Products</Link>
+          <Link href="#" className="block text-white py-2 hover:bg-blue-600">Industries</Link>
+          <Link href="#" className="block text-white py-2 hover:bg-blue-600">Load Market</Link>
+          <Link href="#" className="block text-white py-2 hover:bg-blue-600">About</Link>
         </div>
       )}
     </nav>

@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
+import Image from "next/image";
+import Link from "next/link";
 function Main() {
   return (
     <main className="font-[roobert]">
@@ -14,26 +16,25 @@ function Main() {
             <Navbar />
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-between py-10 items-center ">
-            <div className="text-white lg:w-[90vh] w-full border-none leading-7 mb-4 sm:mb-0">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl  font-semibold mb-2">
+          <div className="flex flex-col sm:flex-row gap-10 justify-between py-10 items-center ">
+            <div className="text-white md:w-2/5 w-full">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold mb-2">
                 Get all-in-one Platform for
               </h2>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[78px]  font-bold leading-snug mb-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[78px] font-bold leading-snug mb-4">
                 Transportation & Logistics.
               </h1>
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl py-3">
                 Streamline, Optimize, Excel with Truckala.
               </p>
-              <div>
-                <button className="text-white border border-white rounded-lg px-8 py-2 mt-4 text-base ">
+              <div className="mt-5">
+                <Link href="#" className="text-white border border-white rounded-2xl px-10 py-3 text-[21px] leading-[42px]">
                   Book a demo
-                </button>
+                </Link>
               </div>
             </div>
-
-            <div>
-              <img src="/DeviceMockup.png" alt="" className="w-full" />
+            <div className="md:w-3/5 w-full">
+              <Image src="/DeviceMockup.png" alt="/DeviceMockup.png" className="w-full" width={622} height={401} />
             </div>
           </div>
         </div>

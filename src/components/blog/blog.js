@@ -3,8 +3,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { IoIosArrowDropdownCircle } from 'react-icons/io'
 
-function blog() {
-
+function Blog() {
   const [openTab, setOpenTab] = useState(1);
   const handleFaq = (id) => {
     if (openTab === id) {
@@ -61,7 +60,7 @@ function blog() {
   )
 }
 
-export default blog
+export default Blog
 
 export const Tabs_Data = [
   {

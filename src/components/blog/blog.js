@@ -114,44 +114,32 @@ export const Tabs_Data = [
     title1: "Fleet Maintenance",
     title2: "(FCL, LCL, BB, 3PL)",
     img: "/bg@2x.jpg",
-    content: "Our Transportation Management System is the driving force behind streamlined logistics. It optimizes routes, provides real-time tracking, and minimizes costs.",
+    content: "Maximize Fleet Reliability with Our Maintenance Module. From preventive scheduling to repair tracking, we ensure optimal vehicle condition. Keep your fleet efficient and your business moving seamlessly in transportation and logistics.",
     features: [
       {
-        list: "Customer Contracts",
+        "list": "Fleet Inventory Tracking"
       },
       {
-        list: "Terminal Management",
+        "list": "Maintenance Orders"
       },
       {
-        list: "Trip Updates",
+        "list": "Scheduling Repair Tracking"
       },
       {
-        list: "Drivers Commission",
+        "list": "Inspection Checklist"
       },
       {
-        list: "Order Creation",
+        "list": "Inventory Management"
       },
       {
-        list: "Waybill And Pod",
+        "list": "Fuel & Meter Imports"
       },
       {
-        list: "Backload Management",
+        "list": "Documents Management"
       },
       {
-        list: "Fuel Management",
-      },
-      {
-        list: "Load Planning",
-      },
-      {
-        list: "Drivers Management",
-      },
-      {
-        list: "Fleet Type",
-      },
-      {
-        list: "Drivers App & Customers",
-      },
+        "list": "Customizable Reports & Dashboards"
+      }
     ]
   },
   {
@@ -159,44 +147,32 @@ export const Tabs_Data = [
     title1: "Freight Forwarding",
     title2: "(FCL, LCL, BB, 3PL)",
     img: "/bg@2x.jpg",
-    content: "Our Transportation Management System is the driving force behind streamlined logistics. It optimizes routes, provides real-time tracking, and minimizes costs.",
+    content: "Streamline your global logistics with our comprehensive freight forwarding services. Our software helps you to manage every aspect, from documentation to customs clearance, to ensure smooth cargo movement for Air or sea freight. ",
     features: [
       {
-        list: "Customer Contracts",
+        "List": "Order Management"
       },
       {
-        list: "Terminal Management",
+        "List": "Correspondence Management"
       },
       {
-        list: "Trip Updates",
+        "List": "Document Management"
       },
       {
-        list: "Drivers Commission",
+        "List": "Port & Gov Charges Management"
       },
       {
-        list: "Order Creation",
+        "List": "Vendors Management"
       },
       {
-        list: "Waybill And Pod",
+        "List": "Customer Contracts"
       },
       {
-        list: "Backload Management",
+        "List": "Container wise or BL wise Management"
       },
       {
-        list: "Fuel Management",
-      },
-      {
-        list: "Load Planning",
-      },
-      {
-        list: "Drivers Management",
-      },
-      {
-        list: "Fleet Type",
-      },
-      {
-        list: "Drivers App & Customers",
-      },
+        "List": "Shipping Line Correspondence"
+      }
     ]
   },
   {
@@ -204,44 +180,38 @@ export const Tabs_Data = [
     title1: "Custom Clearanc",
     title2: "(FCL, LCL, BB, 3PL)",
     img: "/bg@2x.jpg",
-    content: "Our Transportation Management System is the driving force behind streamlined logistics. It optimizes routes, provides real-time tracking, and minimizes costs.",
+    content: "Our software automates customs documentation and compliance management for a smooth international or local trade process. With real-time updates, cost-effective solutions, and user-friendly features, our Customs Clearance software empowers businesses to streamline customs procedures and ensure seamless international shipments.",
     features: [
       {
-        list: "Customer Contracts",
+        "List": "Order Management"
       },
       {
-        list: "Terminal Management",
+        "List": "Correspondence Management"
       },
       {
-        list: "Trip Updates",
+        "List": "Document Management"
       },
       {
-        list: "Drivers Commission",
+        "List": "Port & Gov Charges Management"
       },
       {
-        list: "Order Creation",
+        "List": "Vendors Management"
       },
       {
-        list: "Waybill And Pod",
+        "List": "Customer Contracts"
       },
       {
-        list: "Backload Management",
+        "List": "Container wise or BL wise Management"
       },
       {
-        list: "Fuel Management",
+        "List": "Shipping Line Correspondence"
       },
       {
-        list: "Load Planning",
+        "List": "Brokers Management"
       },
       {
-        list: "Drivers Management",
-      },
-      {
-        list: "Fleet Type",
-      },
-      {
-        list: "Drivers App & Customers",
-      },
+        "List": "EDI Integration"
+      }
     ]
   },
 ]

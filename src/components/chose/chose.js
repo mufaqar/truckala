@@ -14,21 +14,21 @@ function Chose() {
         <Image width={74} height={78} src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
             <div>
                 <h3 className='py-2 text-xl font-semibold'>Seamless Efficiency</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt dicta eligendi, quaerat odio fugit exercitationem repellat possimus dolorum consequatur similique, ab corporis ad soluta a itaque voluptatibus optio sint.</p>
+                <p>Truckala's logistics software offers a seamless and efficient solution to streamline your entire logistics process. From route optimization to inventory management, our software is designed to enhance your operations and reduce costs.</p>
             </div>
         </div>
         <div className='w-full sm:w-96'>
         <Image width={74} height={78} src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
             <div>
-                <h3 className='py-2 text-xl font-semibold'>Seamless Efficiency</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt dicta eligendi, quaerat odio fugit exercitationem repellat possimus dolorum consequatur similique, ab corporis ad soluta a itaque voluptatibus optio sint.</p>
+                <h3 className='py-2 text-xl font-semibold'>Scalability and Adaptability </h3>
+                <p>Our software is scalable and adaptable to the unique needs of your business. Whether you're a small startup or a large enterprise, Truckala grows with you, providing the tools you need for success in an ever-changing logistics landscape."</p>
             </div>
         </div>
         <div className='w-full sm:w-96'>
         <Image width={74} height={78} src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
             <div>
-                <h3 className='py-2 text-xl font-semibold'>Seamless Efficiency</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt dicta eligendi, quaerat odio fugit exercitationem repellat possimus dolorum consequatur similique, ab corporis ad soluta a itaque voluptatibus optio sint.</p>
+                <h3 className='py-2 text-xl font-semibold'>Advanced Technologyy</h3>
+                <p>Truckala's  logistics software harnesses the power of cutting-edge technology. With real-time tracking, predictive analytics, and intuitive user interfaces, we empower your team to make informed decisions, ensuring you stay ahead in the logistics industry.</p>
             </div>
         </div>
       </div>

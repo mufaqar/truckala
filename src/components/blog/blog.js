@@ -116,28 +116,28 @@ export const Tabs_Data = [
     content: "Maximize Fleet Reliability with Our Maintenance Module. From preventive scheduling to repair tracking, we ensure optimal vehicle condition. Keep your fleet efficient and your business moving seamlessly in transportation and logistics.",
     features: [
       {
-        "list": "Fleet Inventory Tracking"
+        list: "Fleet Inventory Tracking"
       },
       {
-        "list": "Maintenance Orders"
+        list: "Maintenance Orders"
       },
       {
-        "list": "Scheduling Repair Tracking"
+        list: "Scheduling Repair Tracking"
       },
       {
-        "list": "Inspection Checklist"
+        list: "Inspection Checklist"
       },
       {
-        "list": "Inventory Management"
+        list: "Inventory Management"
       },
       {
-        "list": "Fuel & Meter Imports"
+        list: "Fuel & Meter Imports"
       },
       {
-        "list": "Documents Management"
+        list: "Documents Management"
       },
       {
-        "list": "Customizable Reports & Dashboards"
+        list: "Customizable Reports & Dashboards"
       }
     ]
   },
@@ -149,28 +149,28 @@ export const Tabs_Data = [
     content: "Streamline your global logistics with our comprehensive freight forwarding services. Our software helps you to manage every aspect, from documentation to customs clearance, to ensure smooth cargo movement for Air or sea freight. ",
     features: [
       {
-        "list": "Order Management"
+        list: "Order Management"
       },
       {
-        "list": "Correspondence Management"
+        list: "Correspondence Management"
       },
       {
-        "list": "Document Management"
+        list: "Document Management"
       },
       {
-        "list": "Port & Gov Charges Management"
+        list: "Port & Gov Charges Management"
       },
       {
-        "list": "Vendors Management"
+        list: "Vendors Management"
       },
       {
-        "list": "Customer Contracts"
+        list: "Customer Contracts"
       },
       {
-        "list": "Container wise or BL wise Management"
+        list: "Container wise or BL wise Management"
       },
       {
-        "list": "Shipping Line Correspondence"
+        list: "Shipping Line Correspondence"
       }
     ]
   },
@@ -182,34 +182,34 @@ export const Tabs_Data = [
     content: "Our software automates customs documentation and compliance management for a smooth international or local trade process. With real-time updates, cost-effective solutions, and user-friendly features, our Customs Clearance software empowers businesses to streamline customs procedures and ensure seamless international shipments.",
     features: [
       {
-        "list": "Order Management"
+        list: "Order Management"
       },
       {
-        "list": "Correspondence Management"
+        list: "Correspondence Management"
       },
       {
-        "list": "Document Management"
+        list: "Document Management"
       },
       {
-        "list": "Port & Gov Charges Management"
+        list: "Port & Gov Charges Management"
       },
       {
-        "list": "Vendors Management"
+        list: "Vendors Management"
       },
       {
-        "list": "Customer Contracts"
+        list: "Customer Contracts"
       },
       {
-        "list": "Container wise or BL wise Management"
+        list: "Container wise or BL wise Management"
       },
       {
-        "list": "Shipping Line Correspondence"
+        list: "Shipping Line Correspondence"
       },
       {
-        "list": "Brokers Management"
+        list: "Brokers Management"
       },
       {
-        "list": "EDI Integration"
+        list: "EDI Integration"
       }
     ]
   },

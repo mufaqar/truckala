@@ -149,28 +149,28 @@ export const Tabs_Data = [
     content: "Streamline your global logistics with our comprehensive freight forwarding services. Our software helps you to manage every aspect, from documentation to customs clearance, to ensure smooth cargo movement for Air or sea freight. ",
     features: [
       {
-        "List": "Order Management"
+        "list": "Order Management"
       },
       {
-        "List": "Correspondence Management"
+        "list": "Correspondence Management"
       },
       {
-        "List": "Document Management"
+        "list": "Document Management"
       },
       {
-        "List": "Port & Gov Charges Management"
+        "list": "Port & Gov Charges Management"
       },
       {
-        "List": "Vendors Management"
+        "list": "Vendors Management"
       },
       {
-        "List": "Customer Contracts"
+        "list": "Customer Contracts"
       },
       {
-        "List": "Container wise or BL wise Management"
+        "list": "Container wise or BL wise Management"
       },
       {
-        "List": "Shipping Line Correspondence"
+        "list": "Shipping Line Correspondence"
       }
     ]
   },
@@ -182,34 +182,34 @@ export const Tabs_Data = [
     content: "Our software automates customs documentation and compliance management for a smooth international or local trade process. With real-time updates, cost-effective solutions, and user-friendly features, our Customs Clearance software empowers businesses to streamline customs procedures and ensure seamless international shipments.",
     features: [
       {
-        "List": "Order Management"
+        "list": "Order Management"
       },
       {
-        "List": "Correspondence Management"
+        "list": "Correspondence Management"
       },
       {
-        "List": "Document Management"
+        "list": "Document Management"
       },
       {
-        "List": "Port & Gov Charges Management"
+        "list": "Port & Gov Charges Management"
       },
       {
-        "List": "Vendors Management"
+        "list": "Vendors Management"
       },
       {
-        "List": "Customer Contracts"
+        "list": "Customer Contracts"
       },
       {
-        "List": "Container wise or BL wise Management"
+        "list": "Container wise or BL wise Management"
       },
       {
-        "List": "Shipping Line Correspondence"
+        "list": "Shipping Line Correspondence"
       },
       {
-        "List": "Brokers Management"
+        "list": "Brokers Management"
       },
       {
-        "List": "EDI Integration"
+        "list": "EDI Integration"
       }
     ]
   },

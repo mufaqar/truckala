@@ -3,7 +3,7 @@ import React from 'react';
 
 function Chose() {
   return (
-    <div className='container mx-auto px-4 font-[roobert]'>
+    <div className='container mx-auto px-4 font-[roobert]' id="company">
       <div>
         <h1 className='text-3xl font-semibold text-center md:text-6xl lg:text-7xl mt-20 py-8'>
           Why Choose Us

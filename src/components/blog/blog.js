@@ -12,7 +12,7 @@ function Blog() {
     setOpenTab(id)
   }
   return (
-    <main className='container mx-auto px-4 py-10 font-[roobert]'>
+    <main className='container mx-auto px-4 py-10 font-[roobert]' id="products">
       <div className='bg-[#E9E9E9] rounded-full'>
         <ul className='flex flex-wrap justify-center lg:justify-between items-center'>
           {Tabs_Data.map((item, idx) => {

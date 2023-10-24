@@ -11,7 +11,7 @@ export default function Home() {
   return (
 
     <>
-    <Head>
+      <Head>
         <title>Truckala - Transportation & Logistics</title>
         <meta name="description" content="Get all-in-one Platform for Transportation & Logistics.Streamline, Optimize, Excel with Truckala" />
         <link rel="canonical" href="https://www.truckala.com" />
@@ -33,14 +33,14 @@ export default function Home() {
         <meta name="twitter:data1" content="07 minutes" />
       </Head>
       <main>
-  <Main/>
-  <Blog/>
-  <Versatile/>
-  <Chose/>
-  <Pic/>
- <Footer/> 
-  </main>
+        <Main />
+        <Blog />
+        <Versatile />
+        <Chose />
+        <Pic />
+        <Footer />
+      </main>
     </>
-  
+
   )
 }

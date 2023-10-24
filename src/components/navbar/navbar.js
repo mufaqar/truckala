@@ -15,7 +15,7 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <Link href="/">
-            <Image src="logo.svg" alt="Logo" width={160} height={50} />
+            <Image src="logo.svg" alt="Logo" width={240} height={50} />
           </Link>
         </div>
         <div className="hidden md:flex items-center space-x-8">
@@ -23,7 +23,9 @@ function Navbar() {
           <Link href="#" className="text-white hover:text-blue-300">Industries</Link>
           <Link href="#" className="text-white hover:text-blue-300">Load Market</Link>
           <Link href="#" className="text-white hover:text-blue-300">About</Link>
-          <button className="bg-white text-blue-800 px-6 py-1">Sign up</button>
+          <Link href="#" className="text-base font-semibold uppercase bg-white text-[#1D36E4] px-11 py-3 rounded-[3px]">
+            Sign up
+          </Link>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
@@ -34,11 +36,11 @@ function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden  w-full">
-          <Link href="#" className="block text-white py-2 hover:bg-blue-600">Products</Link>
-          <Link href="#" className="block text-white py-2 hover:bg-blue-600">Industries</Link>
-          <Link href="#" className="block text-white py-2 hover:bg-blue-600">Load Market</Link>
-          <Link href="#" className="block text-white py-2 hover:bg-blue-600">About</Link>
+        <div className="md:hidden  w-full absolute top-28 left-0 right-0 bg-[#1D36E4] py-10 px-4">
+          <Link href="#" className="block text-white py-2 hover:opacity-70">Products</Link>
+          <Link href="#" className="block text-white py-2 hover:opacity-70">Industries</Link>
+          <Link href="#" className="block text-white py-2 hover:opacity-70">Load Market</Link>
+          <Link href="#" className="block text-white py-2 hover:opacity-70">About</Link>
         </div>
       )}
     </nav>

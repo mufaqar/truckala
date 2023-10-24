@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Chose() {
@@ -10,21 +11,21 @@ function Chose() {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-5 mx-auto justify-center items-center'>
         <div className='w-full sm:w-96'>
-        <img src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
+        <Image width={74} height={78} src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
             <div>
                 <h3 className='py-2 text-xl font-semibold'>Seamless Efficiency</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt dicta eligendi, quaerat odio fugit exercitationem repellat possimus dolorum consequatur similique, ab corporis ad soluta a itaque voluptatibus optio sint.</p>
             </div>
         </div>
         <div className='w-full sm:w-96'>
-        <img src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
+        <Image width={74} height={78} src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
             <div>
                 <h3 className='py-2 text-xl font-semibold'>Seamless Efficiency</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt dicta eligendi, quaerat odio fugit exercitationem repellat possimus dolorum consequatur similique, ab corporis ad soluta a itaque voluptatibus optio sint.</p>
             </div>
         </div>
         <div className='w-full sm:w-96'>
-        <img src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
+        <Image width={74} height={78} src="/Group1.svg" alt="" className='bg-blue-700 py-4 px-3 rounded-full w-20' />
             <div>
                 <h3 className='py-2 text-xl font-semibold'>Seamless Efficiency</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt dicta eligendi, quaerat odio fugit exercitationem repellat possimus dolorum consequatur similique, ab corporis ad soluta a itaque voluptatibus optio sint.</p>

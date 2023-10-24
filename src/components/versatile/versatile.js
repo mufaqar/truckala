@@ -32,14 +32,14 @@ function versatile() {
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/2.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
             <Image
-              width={74}
-              height={78}
-              src="/Group4721.jpg"
+              width={75}
+              height={75}
+              src="/distribution.svg"
               alt=""
               className="rounded-full bg-white px-3 py-2 w-20"
             />
-            <p className="mt-2 font-semibold">Trucking & Logistics</p>
-            <h4>(Fcl, Lcl, Bb, 3pl)</h4>
+            <p className="mt-2 font-semibold">Distribution</p>
+           
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/3.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -47,12 +47,12 @@ function versatile() {
             <Image
               width={74}
               height={78}
-              src="/Group4721.jpg"
+              src="/construction.svg"
               alt=""
               className="rounded-full bg-white px-3 py-2 w-20"
             />
-            <p className="mt-2 font-semibold">Trucking & Logistics</p>
-            <h4>(Fcl, Lcl, Bb, 3pl)</h4>
+            <p className="mt-2 font-semibold">Construction</p>
+        
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/4.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -60,12 +60,12 @@ function versatile() {
             <Image
               width={74}
               height={78}
-              src="/Group4721.jpg"
+              src="/car.svg"
               alt=""
               className="rounded-full bg-white px-3 py-2 w-20"
             />
-            <p className="mt-2 font-semibold">Trucking & Logistics</p>
-            <h4>(Fcl, Lcl, Bb, 3pl)</h4>
+            <p className="mt-2 font-semibold">Car Carrier</p>
+            
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/5.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -73,12 +73,12 @@ function versatile() {
             <Image
               width={74}
               height={78}
-              src="/Group4721.jpg"
+              src="/oil.svg"
               alt=""
               className="rounded-full bg-white px-3 py-2 w-20"
             />
-            <p className="mt-2 font-semibold">Trucking & Logistics</p>
-            <h4>(Fcl, Lcl, Bb, 3pl)</h4>
+            <p className="mt-2 font-semibold">Oil And Gas</p>
+            
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/6.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -86,12 +86,12 @@ function versatile() {
             <Image
               width={74}
               height={78}
-              src="/Group4721.jpg"
+              src="/last.svg"
               alt=""
               className="rounded-full bg-white px-3 py-2 w-20"
             />
-            <p className="mt-2 font-semibold">Trucking & Logistics</p>
-            <h4>(Fcl, Lcl, Bb, 3pl)</h4>
+            <p className="mt-2 font-semibold">Lastmiile</p>
+      
           </div>
         </div>
       </div>

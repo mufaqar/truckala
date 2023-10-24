@@ -176,7 +176,7 @@ export const Tabs_Data = [
   },
   {
     id: 4,
-    title1: "Custom Clearanc",
+    title1: "Custom Clearance",
     title2: "(FCL, LCL, BB, 3PL)",
     img: "/bg@2x.jpg",
     content: "Our software automates customs documentation and compliance management for a smooth international or local trade process. With real-time updates, cost-effective solutions, and user-friendly features, our Customs Clearance software empowers businesses to streamline customs procedures and ensure seamless international shipments.",

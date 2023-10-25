@@ -9,6 +9,12 @@ import { RiUserLocationFill } from 'react-icons/ri';
 import { SiMinutemailer } from 'react-icons/si';
 import Link from 'next/link';
 import Image from 'next/image';
+
+
+
+
+
+
 function footer() {
   return (
     <main className="bg-[#1D36E4] full h-auto text-white rounded-tr-[90px] rounded-tl-[90px]">
@@ -97,6 +103,19 @@ function footer() {
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto justify-end">
         <div className="md:col-span-2">
+        <li>
+               
+                  <Image
+                  src="logo.svg" 
+                    alt="Google Playstore"
+                    width={200}
+                    height={62}
+                  />
+               
+              </li>
+              <li>
+                <Image src="logo.svg"  alt="APPLE" width={200} height={62} />
+              </li>
           </div>
           
          

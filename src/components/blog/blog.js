@@ -145,7 +145,7 @@ export const Tabs_Data = [
   {
     id: 2,
     title1: 'Fleet Maintenance',
-    title2: '(FCL, LCL, BB, 3PL)',
+    title2: '',
     img: '/fleet.png',
     content:
       'Maximize Fleet Reliability with Our Maintenance Module. From preventive scheduling to repair tracking, we ensure optimal vehicle condition. Keep your fleet efficient and your business moving seamlessly in transportation and logistics.',
@@ -179,7 +179,7 @@ export const Tabs_Data = [
   {
     id: 3,
     title1: 'Freight Forwarding',
-    title2: '(FCL, LCL, BB, 3PL)',
+    title2: '',
     img: '/freight.webp',
     content:
       'Streamline your global logistics with our comprehensive freight forwarding services. Our software helps you to manage every aspect, from documentation to customs clearance, to ensure smooth cargo movement for Air or sea freight. ',
@@ -213,7 +213,7 @@ export const Tabs_Data = [
   {
     id: 4,
     title1: 'Custom Clearance',
-    title2: '(FCL, LCL, BB, 3PL)',
+    title2: '',
     img: '/customs.jpg',
     content:
       'Our software automates customs documentation and compliance management for a smooth international or local trade process. With real-time updates, cost-effective solutions, and user-friendly features, our Customs Clearance software empowers businesses to streamline customs procedures and ensure seamless international shipments.',

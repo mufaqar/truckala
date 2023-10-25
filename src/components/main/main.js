@@ -8,7 +8,7 @@ function Main() {
       <div
         className="bg-cover bg-center h-auto  py-5 w-full"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url('/main.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url('/banner.jpg')`,
         }}
       >
         <div className="container mx-auto px-4 py-5">

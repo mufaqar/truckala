@@ -102,20 +102,20 @@ function footer() {
           </div>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto justify-end">
-        <div className="md:col-span-2">
-        <li>
+        <div className="md:col-span-2 flex  mt-5">
+      
                
                   <Image
-                  src="logo.svg" 
+                   src="/google.png" 
                     alt="Google Playstore"
                     width={200}
                     height={62}
                   />
                
-              </li>
-              <li>
-                <Image src="logo.svg"  alt="APPLE" width={200} height={62} />
-              </li>
+            
+         
+                <Image src="/apple.png"  alt="APPLE" width={200} height={62} />
+             
           </div>
           
          

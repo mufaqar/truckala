@@ -79,12 +79,7 @@ function Blog() {
               </ul>
             </div>
             <div className="sm:w-[45%] w-full">
-              <Image
-                src={item?.img}
-                alt={item?.img}
-                width={1402}
-                height={1368}
-              />
+              <Image src={item?.img} alt={item?.img} width={701} height={684} />
             </div>
           </div>
         );
@@ -180,7 +175,7 @@ export const Tabs_Data = [
     id: 3,
     title1: 'Freight Forwarding',
     title2: '',
-    img: '/freight.webp',
+    img: '/freight.png',
     content:
       'Streamline your global logistics with our comprehensive freight forwarding services. Our software helps you to manage every aspect, from documentation to customs clearance, to ensure smooth cargo movement for Air or sea freight. ',
     features: [
@@ -214,7 +209,7 @@ export const Tabs_Data = [
     id: 4,
     title1: 'Custom Clearance',
     title2: '',
-    img: '/customs.jpg',
+    img: '/custom.png',
     content:
       'Our software automates customs documentation and compliance management for a smooth international or local trade process. With real-time updates, cost-effective solutions, and user-friendly features, our Customs Clearance software empowers businesses to streamline customs procedures and ensure seamless international shipments.',
     features: [

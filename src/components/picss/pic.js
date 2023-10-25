@@ -9,7 +9,7 @@ function Pic() {
           <h2 className='text-2xl md:text-3xl xl:text-4xl font-semibold mb-10'>
             Ready to get started with Truckala
           </h2>
-          <Link href="#" className="text-black border border-black rounded-2xl px-8 py-2.5 text-xl">
+          <Link href="/contact-us" className="text-black border border-black rounded-2xl px-8 py-2.5 text-xl">
             Book a demo
           </Link>
         </div>

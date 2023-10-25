@@ -18,75 +18,48 @@ function footer() {
             <h6 className="font-bold py-3">Products</h6>
             <ul className="text-sm grid gap-2">
               <li>
-                <Link href="#">Fleet Management</Link>
-                <span className="border w-32 mt-2 block"></span>
-              </li>
-
-              <li>
-                <Link href="#">Vehicle Tracking System</Link>
+                <Link href="#">Transportation Management (TMS)</Link>
               </li>
               <li>
-                <Link href="#">Scheduling & Routing</Link>
+                <Link href="#">Fleet Maintenance</Link>
               </li>
               <li>
-                <Link href="#">Reporting & alerts</Link>
+                <Link href="#">Freight Forwarding</Link>
               </li>
               <li>
-                <Link href="#">Fleet Maintanence</Link>
-              </li>
-              <li>
-                <Link href="#">Driver Behaviour Analytics &</Link>
-              </li>
-              <li>
-                <Link href="#">Safety</Link>
-              </li>
-              <li>
-                <Link href="#">Driver Management &</Link>
-              </li>
-              <li>
-                <Link href="#">Electronic POD</Link>
-              </li>
-              <li>
-                <Link href="#">AIS-140 Certified devices</Link>
+                <Link href="#">Custom Clearance</Link>
               </li>
             </ul>
           </div>
           <div>
             <h6 className="font-bold py-3">Industries</h6>
             <ul className="text-sm grid gap-2">
-              
-                <li>
-                  <Link href="#">By Industries</Link>
-                  <span className="border w-32 mt-2 block"></span>
-                </li>
-                <li>
-                  <Link href="#">TRUCKING & LOGISTICS</Link>
-                </li>
-                <li>
-                  <Link href="#">DISTRIBUTION</Link>
-                </li>
-                <li>
-                  <Link href="#">CONSTRUCTION</Link>
-                </li>
-                <li>
-                  <Link href="#">CAR CARRIER</Link>
-                </li>
-                <li>
-                  <Link href="#">OIL AND GAS</Link>
-                </li>
-                <li>
-                  <Link href="#">LAST MILE</Link>
-                </li>
-            
+              <li>
+                <Link href="#">Trucking & Logistics</Link>
+              </li>
+              <li>
+                <Link href="#">Distribution</Link>
+              </li>
+              <li>
+                <Link href="#">Construction</Link>
+              </li>
+              <li>
+                <Link href="#">Car Carrier</Link>
+              </li>
+              <li>
+                <Link href="#">Oil And Gas</Link>
+              </li>
+              <li>
+                <Link href="#">Last Mile</Link>
+              </li>
             </ul>
           </div>
           <div>
             <h6 className="font-bold py-3">Company</h6>
             <ul className="text-sm grid gap-2">
               <li>
-                <Link href="#">About Us</Link>
+                <Link href="/company">About Us</Link>
               </li>
-             
             </ul>
           </div>
           <div>
@@ -122,31 +95,11 @@ function footer() {
             </ul>
           </div>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto">
-          <div>
-            <h4 className="font-bold mt-10">Enterprise Products</h4>
-            <div className="border w-32 my-2"></div>
-            <ul className="text-sm grid gap-2">
-              <li>
-                <Link href="#">Transport Management System</Link>
-              </li>
-            </ul>
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto justify-end">
+        <div className="md:col-span-2">
           </div>
-          <div>
-            <h4 className="font-bold">By Solution</h4>
-            <div className="border w-32 my-2"></div>
-            <ul className="text-sm grid gap-2">
-              <li>
-                <Link href="#">Sim Based Tracking</Link>
-              </li>
-              <li>
-                <Link href="#">Fuel Management System</Link>
-              </li>
-              <li>
-                <Link href="#">Electric Vehicle Management</Link>
-              </li>
-            </ul>
-          </div>
+          
+         
           <div className="md:col-span-2">
             <ul className="grid md:grid-cols-3 grid-cols-1 ">
               <li className="bg-[#FFFFFF1A] p-4 max-w-[262px]">
@@ -183,7 +136,7 @@ function footer() {
       <div className="border lg:mt-20 mt-10 border-gray-300"></div>
       <div className="container mx-auto px-4 items-center py-5">
         <div className="flex flex-wrap justify-between items-center text-[12px]">
-          <p>© 2019 Group Travel Videos™ Made with in Charlotte, NC.</p>
+          <p>© 2023 Truckala All Rights Reserved</p>
           <div>
             <p>Sitemap - Terms & Conditions - Privacy Policy</p>
           </div>

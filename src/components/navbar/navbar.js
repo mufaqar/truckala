@@ -36,7 +36,7 @@ function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden  w-full absolute top-28 left-0 right-0 bg-[#1D36E4] py-10 px-4">
+        <div className="md:hidden w-full absolute top-28 left-0 right-0 bg-[#1D36E4] py-10 px-4">
           <Link href="#products" className="block text-white py-2 hover:opacity-70">Products</Link>
           <Link href="#industries" className="block text-white py-2 hover:opacity-70">Industries</Link>
           <Link href="load-market" className="block text-white py-2 hover:opacity-70">Load Market</Link>

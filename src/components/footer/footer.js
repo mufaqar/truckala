@@ -10,11 +10,6 @@ import { SiMinutemailer } from 'react-icons/si';
 import Link from 'next/link';
 import Image from 'next/image';
 
-
-
-
-
-
 function footer() {
   return (
     <main className="bg-[#1D36E4] full h-auto text-white rounded-tr-[90px] rounded-tl-[90px]">
@@ -102,31 +97,27 @@ function footer() {
           </div>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto justify-end">
-        <div className="md:col-span-2 flex  mt-5">
-      
-               
-                  <Image
-                   src="/google.png" 
-                    alt="Google Playstore"
-                    width={200}
-                    height={62}
-                  />
-               
-            
-         
-                <Image src="/apple.png"  alt="APPLE" width={200} height={62} />
-             
+          <div className="md:col-span-2 flex  mt-5">
+            <Image
+              src="/google.png"
+              alt="Google Playstore"
+              width={200}
+              height={62}
+            />
+            <Image src="/apple.png" alt="APPLE" width={200} height={62} />
           </div>
-          
-         
+
           <div className="md:col-span-2">
             <ul className="grid md:grid-cols-3 grid-cols-1 ">
               <li className="bg-[#FFFFFF1A] p-4 max-w-[262px]">
                 <span className="flex items-center gap-3 mt-2">
                   <BsFillTelephoneFill className="text-2xl" />
-                  <Link href="tel:0966553611503" className="text-[11px] grid gap-1 w-full">
+                  <Link
+                    href="tel:966570786312"
+                    className="text-[11px] grid gap-1 w-full"
+                  >
                     <span>Phone</span>
-                    <span className="font-bold">+966 55 361 1503</span>
+                    <span className="font-bold">+966 570 786 312</span>
                   </Link>
                 </span>
               </li>
@@ -135,16 +126,21 @@ function footer() {
                   <RiUserLocationFill className="text-2xl" />
                   <Link href="#" className="text-[11px] grid gap-1 w-full">
                     <span>Location</span>
-                    <span className="font-bold">Jeddah, Riyadh, Dammam</span>
+                    <span className="font-bold">
+                      Abi Bakr As Siddiq Rd, exit6 , Riyadh
+                    </span>
                   </Link>
                 </span>
               </li>
               <li className="bg-[#FFFFFF1A] p-4 max-w-[262px]">
                 <span className="flex items-center gap-3 mt-2">
                   <SiMinutemailer className="text-2xl" />
-                  <Link href="#" className="text-[11px] grid gap-1 w-full">
+                  <Link
+                    href="mailto:hi@truckala.com"
+                    className="text-[11px] grid gap-1 w-full"
+                  >
                     <span>Email</span>
-                    <span className="font-bold">info@truckala.com</span>
+                    <span className="font-bold">hi@truckala.com</span>
                   </Link>
                 </span>
               </li>

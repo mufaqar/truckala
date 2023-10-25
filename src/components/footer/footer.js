@@ -19,16 +19,16 @@ function footer() {
             <h6 className="font-bold py-3">Products</h6>
             <ul className="text-sm grid gap-2">
               <li>
-                <Link href="#">Transportation Management (TMS)</Link>
+                <Link href="/#products">Transportation Management (TMS)</Link>
               </li>
               <li>
-                <Link href="#">Fleet Maintenance</Link>
+                <Link href="/#products">Fleet Maintenance</Link>
               </li>
               <li>
-                <Link href="#">Freight Forwarding</Link>
+                <Link href="/#products">Freight Forwarding</Link>
               </li>
               <li>
-                <Link href="#">Custom Clearance</Link>
+                <Link href="/#products">Custom Clearance</Link>
               </li>
             </ul>
           </div>

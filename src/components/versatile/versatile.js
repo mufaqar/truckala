@@ -1,11 +1,14 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 function versatile() {
   return (
     <div className="font-[roobert]">
       <div className="bg-[#1D36E4]">
-        <div className="container mx-auto px-4 text-white text-center  py-10 ">
+        <div
+          className="container mx-auto px-4 text-white text-center  py-10 "
+          id="industries"
+        >
           <h2 className="font-semibold text-5xl py-2">
             Versatile And Adaptable For Your Industry
           </h2>
@@ -39,7 +42,6 @@ function versatile() {
               className="rounded-full bg-white px-3 py-2 w-20"
             />
             <p className="mt-2 font-semibold">Distribution</p>
-           
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/3.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -52,7 +54,6 @@ function versatile() {
               className="rounded-full bg-white px-3 py-2 w-20"
             />
             <p className="mt-2 font-semibold">Construction</p>
-        
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/4.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -65,7 +66,6 @@ function versatile() {
               className="rounded-full bg-white px-3 py-2 w-20"
             />
             <p className="mt-2 font-semibold">Car Carrier</p>
-            
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/5.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -78,7 +78,6 @@ function versatile() {
               className="rounded-full bg-white px-3 py-2 w-20"
             />
             <p className="mt-2 font-semibold">Oil And Gas</p>
-            
           </div>
         </div>
         <div className="bg-center h-72 w-full relative bg-cover bg-no-repeat bg-[url('/industries/6.png')] bg-blend-multiply bg-[#1D36E4]/80 shadow-sm">
@@ -91,7 +90,6 @@ function versatile() {
               className="rounded-full bg-white px-3 py-2 w-20"
             />
             <p className="mt-2 font-semibold">Lastmiile</p>
-      
           </div>
         </div>
       </div>

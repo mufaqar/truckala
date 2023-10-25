@@ -146,7 +146,7 @@ export const Tabs_Data = [
     id: 2,
     title1: 'Fleet Maintenance',
     title2: '(FCL, LCL, BB, 3PL)',
-    img: '/fleet.jpg',
+    img: '/fleet.png',
     content:
       'Maximize Fleet Reliability with Our Maintenance Module. From preventive scheduling to repair tracking, we ensure optimal vehicle condition. Keep your fleet efficient and your business moving seamlessly in transportation and logistics.',
     features: [

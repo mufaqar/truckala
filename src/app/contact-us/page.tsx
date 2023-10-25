@@ -73,17 +73,11 @@ function Contact_Us() {
                                         {errors.phone && <span className='text-xs text-red-500'>This field is required</span>}
                                     </div>
                                     <div className="md:w-1/2 flex flex-col md:mt-0 mt-7">
-                                        <label className="text-base font-semibold leading-none">Reason</label>
-                                        <select {...register("reason", { required: true })} id="reason" className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100">
-                                            <option selected>Select a Reason</option>
-                                            <option value="Customer Service">Customer Service</option>
-                                            <option value="New Service for my Home">New Service for my Home</option>
-                                            <option value="ISP: New/Update Listing">ISP: New/Update Listing</option>
-                                            <option value="Advertising Opportunities">Advertising Opportunities</option>
-                                            <option value="Other">Other</option>
-                                        </select>
-                                        {errors.reason && <span className='text-xs text-red-500'>This field is required</span>}
+                                        <label className="text-base font-semibold leading-none">Company Name</label>
+                                        <input {...register("company")} type="tel" className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 " placeholder="Company Name" />
+                                        {errors.company && <span className='text-xs text-red-500'>This field is required</span>}
                                     </div>
+                                  
                                 </div>
                                 <div>
                                     <div className="w-full flex flex-col mt-8">

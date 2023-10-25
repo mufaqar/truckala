@@ -59,7 +59,10 @@ function footer() {
             <h6 className="font-bold py-3">Company</h6>
             <ul className="text-sm grid gap-2">
               <li>
-                <Link href="/company">About Us</Link>
+                <Link href="/#company">About Us</Link>
+              </li>
+              <li>
+                <Link href="/contact-us">Get In Touch</Link>
               </li>
             </ul>
           </div>
@@ -103,8 +106,9 @@ function footer() {
               alt="Google Playstore"
               width={200}
               height={62}
+              className='py-2 mr-3'
             />
-            <Image src="/apple.png" alt="APPLE" width={200} height={62} />
+            <Image src="/apple.png" alt="APPLE" width={200} height={62}   className='py-2'/>
           </div>
 
           <div className="md:col-span-2">

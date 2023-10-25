@@ -23,8 +23,8 @@ function Navbar() {
           <Link href="#industries" className="text-white hover:text-blue-300">Industries</Link>
           <Link href="/load-market" className="text-white hover:text-blue-300">Load Market</Link>
           <Link href="#company" className="text-white hover:text-blue-300">About</Link>
-          <Link href="#" className="text-base font-semibold uppercase bg-white text-[#1D36E4] px-11 py-3 rounded-[3px]">
-            Sign up
+          <Link href="/contact-us" className="text-base font-semibold  bg-white text-[#1D36E4] px-6 py-3 rounded-[3px]">
+          Get In Touch
           </Link>
         </div>
         <div className="md:hidden flex items-center">

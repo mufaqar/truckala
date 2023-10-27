@@ -24,7 +24,7 @@ function versatile() {
             <Image
               width={74}
               height={78}
-              src="/Group4721.jpg"
+              src="/trucking.svg"
               alt="Trucking & Logistics"
               className="rounded-full bg-white px-3 py-2 w-[75px] h-[75px]"
             />

@@ -34,7 +34,7 @@ function Main() {
               </div>
             </div>
             <div className="md:w-3/5 w-full">
-              <Image src="/DeviceMockup.png" alt="/DeviceMockup.png" className="w-full" width={622} height={401} />
+              <Image src="/device.png" alt="Device Mockup" className="w-full" width={622} height={401} />
             </div>
           </div>
         </div>

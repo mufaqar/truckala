@@ -16,7 +16,7 @@ function Chose() {
             height={75}
             src="/images/seamless.svg"
             alt=""
-            className="bg-blue-700 py-3 px-3 rounded-full "
+            className="bg-blue-700 py-3 px-3 rounded-full w-[75px] h-[75px] "
           />
           <div>
             <h3 className="py-2 text-xl font-semibold">Seamless Efficiency</h3>
@@ -34,7 +34,7 @@ function Chose() {
             height={75}
             src="/images/scale.svg"
             alt=""
-            className="bg-blue-700 py-3 px-3 rounded-full "
+            className="bg-blue-700 py-3 px-3 rounded-full w-[75px] h-[75px] "
           />
           <div>
             <h3 className="py-2 text-xl font-semibold">
@@ -54,7 +54,7 @@ function Chose() {
             height={75}
             src="/images/advance.svg"
             alt=""
-            className="bg-blue-700 py-3 px-3 rounded-full"
+            className="bg-blue-700 py-3 px-3 rounded-full w-[75px] h-[75px] "
           />
           <div>
             <h3 className="py-2 text-xl font-semibold">Advanced Technologyy</h3>

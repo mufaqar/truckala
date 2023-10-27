@@ -20,7 +20,7 @@ function Contact_Us() {
 
       const onSubmit: SubmitHandler<any> = (data:any) => {
         setSending(true)
-        fetch('/api/email', {
+        fetch('/api/sendmail', {
             method: 'POST',
             headers: {
               Accept: 'application/json, text/plain, */*',

@@ -28,9 +28,9 @@ function Main() {
               Streamline, Optimize, Excel with Truckala. 
               </p>
               <div className="mt-5">
-                <Link href="#/contact-us" className="text-white border border-white rounded-2xl px-10 py-3 text-[21px] leading-[42px]">
+                {/* <Link href="#/contact-us" className="text-white border border-white rounded-2xl px-10 py-3 text-[21px] leading-[42px]">
                   Book a demo
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="md:w-3/5 w-full">
